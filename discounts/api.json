@@ -1,0 +1,40 @@
+{
+  "id": "bdca3edc-40d9-4c12-84ad-364aa827d554",
+  "timestamp": "2017-04-12T22:07:34.242Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "I need a sandwich",
+    "action": "deal.finder",
+    "actionIncomplete": false,
+    "parameters": {
+      "date": "",
+      "deal-type": [],
+      "drink-types": [],
+      "food-types": [
+        "sandwich"
+      ]
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "3774af7d-5902-41bc-83d5-bb10bfc5b93b",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "deal-finder"
+    },
+    "fulfillment": {
+      "messages": [
+        {
+          "type": 0,
+          "speech": "So you want sandwich, you say. Here's a good deal on that."
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "533d2e79-7bc4-446e-bfde-032a79702cf9"
+}
