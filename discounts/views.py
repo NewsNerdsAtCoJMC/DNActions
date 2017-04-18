@@ -16,7 +16,7 @@ from discounts.serializers import DealSerializer
 def deal_list(request, format=None):
     if request.method == 'GET':
         deals = Deal.objects.all()
-        serializer = DealSerializer(deals, many=False)
+        serializer = DealSerializer(deals, many=True)
         return JsonResponse(serializer.data, safe=False)
     elif request.method == 'POST':
         try:
